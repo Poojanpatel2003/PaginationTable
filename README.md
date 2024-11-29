@@ -37,11 +37,11 @@ Steps:
       * git clone https://github.com/your-username/pagination-table.git
       * cd pagination-table
 
-  2. Install Dependencies
+  2. Install Dependencies:
       npm or bun install
 
   3. Run the Project
-  Start the development server:
+      Start the development server:
   4. bun or npm run dev
 
 This will start the app on http://localhost:3000.
