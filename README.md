@@ -22,11 +22,9 @@ This project is a React-based pagination table with built-in inline editing func
   
   * React Icons: FontAwesome icons for edit and save buttons.
 
-    Installation and Setup
+  
 
 # Follow these steps to set up and run the project on your local system:
-
-Prerequisites
 
 Ensure you have the following installed:
 
@@ -36,8 +34,8 @@ npm or bun manager
 
 Steps:
   1. Clone the Repository
-      git clone https://github.com/your-username/pagination-table.git
-      cd pagination-table
+      * git clone https://github.com/your-username/pagination-table.git
+      * cd pagination-table
 
   2. Install Dependencies
       npm or bun install
@@ -51,14 +49,15 @@ This will start the app on http://localhost:3000.
 # Usage
 Viewing the Table
 
-The table displays data in pages, with 10 rows per page.
+* The table displays data in pages, with 10 rows per page.
 
-Navigate using the Previous and Next buttons or by clicking specific page numbers.
+* Navigate using the Previous and Next buttons or by clicking specific page numbers.
+  
 
 Editing Rows
 
-Click the Edit button (✎) to enable inline editing.
+* Click the Edit button (✎) to enable inline editing.
 
-Modify the name and email fields directly in the table.
+* Modify the name and email fields directly in the table.
 
-Save the changes by clicking the Save button (🔒).
+* Save the changes by clicking the Save button (🔒).
