@@ -23,6 +23,8 @@ This project is a React-based pagination table with built-in inline editing func
   * React Icons: FontAwesome icons for edit and save buttons.
 
   
+# Website looks like...
+![Screenshot 2024-11-29 224806](https://github.com/user-attachments/assets/83f430a3-de33-467a-9455-b4acc9072097)
 
 # Follow these steps to set up and run the project on your local system:
 
