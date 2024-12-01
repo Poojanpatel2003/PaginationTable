@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.pagination-container {
+  width: 70%;
+  margin: 20px auto;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pagination-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.pagination-table th,
+.pagination-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.pagination-table th {
+  background-color: #f4f4f4;
+}
+
+.pagination-table tr:nth-child(even) {
+  background-color: #67b5f4;
+}
+
+.pagination-table tr:nth-child(odd) {
+  background-color: #7ed8ff;
+}
+
+.edit-btn,
+.save-btn {
+  background-color: #b0e2ef;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  background-color: #ffffff;
+}
+
+.edit-input {
+  border: 2px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination-btn.active {
+  background-color: #0056b3;
+  font-weight: bold;
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.dots {
+  align-self: center;
+}
